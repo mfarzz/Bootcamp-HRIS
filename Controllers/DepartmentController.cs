@@ -1,5 +1,6 @@
 ﻿using HRIS.API.Data;
 using HRIS.API.Entities;
+using HRIS.API.Features.Departments.Queries.GetDepartmentTree;
 using HRIS.API.Features.Employees.Commands.CreateDepartment;
 using HRIS.API.Features.Employees.Queries.GetDepartments;
 using HRIS.API.Models.Dtos;
@@ -15,8 +16,8 @@ namespace HRIS.API.Controllers;
 public class DepartmentController(ISender sender) : ControllerBase
 {
     [HttpGet]
-    public async Task<ActionResult<IReadOnlyCollection<DepartmentResponse>>> GetAll(CancellationToken ct)
-        => Ok(await sender.Send(new GetDepartmentsQuery(), ct));
+    public async Task<ActionResult<IReadOnlyCollection<DepartmentTreeDto>>> GetTree(CancellationToken ct)
+        => Ok(await sender.Send(new GetDepartmentTreeQuery(), ct));
 
     [HttpPost]
     public async Task<ActionResult> Create([FromBody] CreateDepartmentRequest request, CancellationToken ct)
