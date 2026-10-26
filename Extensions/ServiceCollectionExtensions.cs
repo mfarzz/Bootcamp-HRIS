@@ -1,4 +1,5 @@
-﻿using HRIS.API.Data;
+﻿using HRIS.API.Cummon.Behaviors;
+using HRIS.API.Data;
 using HRIS.API.Data.Repositories;
 using HRIS.API.Data.Repositories.Implementations;
 using HRIS.API.Data.Repositories.Interfaces;
@@ -31,8 +32,11 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IDepartmentRepository, DepartmentRepository>();
         services.AddScoped<IPositionRepository, PositionRepository>();
 
-        services.AddScoped<IEmployeeService, EfEmployeeService>();
-        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
+        services.AddMediatR(cfg =>
+        {
+            cfg.RegisterServicesFromAssemblyContaining<Program>();
+            cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));
+        });
         return services;
     }
 }

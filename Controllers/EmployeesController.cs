@@ -10,8 +10,6 @@ using HRIS.API.Models.Dtos;
 using HRIS.API.Services;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using TerminateResult = HRIS.API.Services.TerminateResult;
-
 namespace HRIS.API.Controllers;
 
 [ApiController]
