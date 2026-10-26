@@ -1,11 +1,11 @@
-﻿using HRIS.API.Data.Repositories.Implementations;
+﻿using HRIS.API.Data.Repositories.Interfaces;
 using MediatR;
 
 namespace HRIS.API.Features.Employees.Commands.AssignManager;
 
 public record AssignManagerCommand(Guid EmployeeId, Guid? ManagerId) : IRequest<bool>;
 
-public class AssignManagerCommandHandler(UnitOfWork uow, ILogger<AssignManagerCommandHandler> logger) : IRequestHandler<AssignManagerCommand, bool>
+public class AssignManagerCommandHandler(IUnitOfWork uow, ILogger<AssignManagerCommandHandler> logger) : IRequestHandler<AssignManagerCommand, bool>
 {
     public async Task<bool> Handle(AssignManagerCommand command, CancellationToken ct)
     {

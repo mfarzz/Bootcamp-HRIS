@@ -1,6 +1,5 @@
-﻿using HRIS.API.Data.Repositories.Implementations;
+﻿using HRIS.API.Data.Repositories.Interfaces;
 using HRIS.API.Entities;
-using HRIS.API.Features.Employees.Commands.CreateEmployee;
 using HRIS.API.Models.Dtos;
 using MediatR;
 
@@ -8,7 +7,7 @@ namespace HRIS.API.Features.Employees.Commands.CreatePosition;
 
 public record CreatePositionCommand(CreatePositionRequest Request) : IRequest<Guid>;
 
-public class CreatePositionCommandHandler(UnitOfWork uow) : IRequestHandler<CreatePositionCommand, Guid>
+public class CreatePositionCommandHandler(IUnitOfWork uow) : IRequestHandler<CreatePositionCommand, Guid>
 {
     public async Task<Guid> Handle(CreatePositionCommand command, CancellationToken ct)
     {

@@ -18,7 +18,7 @@ public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
         builder.Property(e => e.Email)
             .HasMaxLength(100)
             .IsRequired();
-        builder.Property(e=> e.Status)
+        builder.Property(e=> e.EmployeeStatus)
             .HasConversion<string>()
             .HasMaxLength(20)
             .HasDefaultValue(EmployeeStatus.Active)

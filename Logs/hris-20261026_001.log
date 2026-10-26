@@ -1,0 +1,227 @@
+2026-10-26 15:28:15.142 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:30:44.879 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:30:52.994 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:32:55.622 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:33:40.226 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:33:50.676 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:29.568 +07:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5273 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:29.596 +07:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:29.598 +07:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:29.599 +07:00 [INF] Microsoft.Hosting.Lifetime Content root path: D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.547 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.html responded 304 in 284 ms for CorrelationId: ed4d5f01-81ca-4816-bd0f-4a48bba317d7 {"RequestId":"0HNPJ7GTLUB8T:00000001","RequestPath":"/swagger/index.html","ConnectionId":"0HNPJ7GTLUB8T","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.585 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.html responded 304 in 322.3 ms {"UserId":"anonymous","CorrelationId":"ed4d5f01-81ca-4816-bd0f-4a48bba317d7","RequestId":"0HNPJ7GTLUB8T:00000001","ConnectionId":"0HNPJ7GTLUB8T","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.718 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.js responded 304 in 4 ms for CorrelationId: e889b6c2-7489-4396-a076-ed62ae4ef27b {"RequestId":"0HNPJ7GTLUB91:00000001","RequestPath":"/swagger/index.js","ConnectionId":"0HNPJ7GTLUB91","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.728 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.js responded 304 in 17.2 ms {"UserId":"anonymous","CorrelationId":"e889b6c2-7489-4396-a076-ed62ae4ef27b","RequestId":"0HNPJ7GTLUB91:00000001","ConnectionId":"0HNPJ7GTLUB91","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.737 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui-standalone-preset.js responded 304 in 25 ms for CorrelationId: 293a50be-17e7-4b75-b33b-a9112f86696e {"RequestId":"0HNPJ7GTLUB8V:00000001","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HNPJ7GTLUB8V","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.737 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui.css responded 304 in 23 ms for CorrelationId: 8a4defdb-0e8d-4029-872d-05be428407e3 {"RequestId":"0HNPJ7GTLUB8T:00000002","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HNPJ7GTLUB8T","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.737 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.css responded 304 in 25 ms for CorrelationId: 69aadedf-b07f-4e55-807d-a28b00e9c949 {"RequestId":"0HNPJ7GTLUB8U:00000001","RequestPath":"/swagger/index.css","ConnectionId":"0HNPJ7GTLUB8U","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.763 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui-bundle.js responded 304 in 52 ms for CorrelationId: cde9c9d6-ba10-4a46-b3a5-da533b3b65b4 {"RequestId":"0HNPJ7GTLUB90:00000001","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HNPJ7GTLUB90","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.768 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 60.0 ms {"UserId":"anonymous","CorrelationId":"293a50be-17e7-4b75-b33b-a9112f86696e","RequestId":"0HNPJ7GTLUB8V:00000001","ConnectionId":"0HNPJ7GTLUB8V","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.773 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui.css responded 304 in 65.4 ms {"UserId":"anonymous","CorrelationId":"8a4defdb-0e8d-4029-872d-05be428407e3","RequestId":"0HNPJ7GTLUB8T:00000002","ConnectionId":"0HNPJ7GTLUB8T","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.781 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.css responded 304 in 72.8 ms {"UserId":"anonymous","CorrelationId":"69aadedf-b07f-4e55-807d-a28b00e9c949","RequestId":"0HNPJ7GTLUB8U:00000001","ConnectionId":"0HNPJ7GTLUB8U","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:30.787 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 79.1 ms {"UserId":"anonymous","CorrelationId":"cde9c9d6-ba10-4a46-b3a5-da533b3b65b4","RequestId":"0HNPJ7GTLUB90:00000001","ConnectionId":"0HNPJ7GTLUB90","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:31.088 +07:00 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect. {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"CorrelationId":"4c5daaa8-b2ff-4ec7-9a5d-88ef47aa07bf","RequestId":"0HNPJ7GTLUB90:00000002","RequestPath":"/openapi/v1.json","ConnectionId":"0HNPJ7GTLUB90","Scope":["CorrelationId: 4c5daaa8-b2ff-4ec7-9a5d-88ef47aa07bf"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:32.122 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /openapi/v1.json responded 200 in 1041 ms for CorrelationId: 4c5daaa8-b2ff-4ec7-9a5d-88ef47aa07bf {"RequestId":"0HNPJ7GTLUB90:00000002","RequestPath":"/openapi/v1.json","ConnectionId":"0HNPJ7GTLUB90","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:32.148 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /openapi/v1.json responded 200 in 1066.9 ms {"UserId":"anonymous","CorrelationId":"4c5daaa8-b2ff-4ec7-9a5d-88ef47aa07bf","RequestId":"0HNPJ7GTLUB90:00000002","ConnectionId":"0HNPJ7GTLUB90","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:38.851 +07:00 [WRN] LuckyPennySoftware.MediatR.License You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. {"ActionId":"693b9d81-fae8-4336-bedc-9dc049919bcb","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4","RequestId":"0HNPJ7GTLUB90:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7GTLUB90","Scope":["CorrelationId: aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:38.937 +07:00 [DBG] HRIS.API.Pipeline Handle GetEmployeesQuery {"ActionId":"693b9d81-fae8-4336-bedc-9dc049919bcb","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4","RequestId":"0HNPJ7GTLUB90:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7GTLUB90","Scope":["CorrelationId: aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:58.614 +07:00 [ERR] Microsoft.EntityFrameworkCore.Database.Connection An error occurred using the connection to database 'HrisDB' on server 'localhost'. {"EventId":{"Id":20004,"Name":"Microsoft.EntityFrameworkCore.Database.Connection.ConnectionError"},"RequestName":"GetEmployeesQuery","ActionId":"693b9d81-fae8-4336-bedc-9dc049919bcb","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4","RequestId":"0HNPJ7GTLUB90:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7GTLUB90","Scope":["CorrelationId: aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:36:58.731 +07:00 [ERR] Microsoft.EntityFrameworkCore.Query An exception occurred while iterating over the results of a query for context type 'HRIS.API.Data.HrisDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=40; handshake=66; [Login] initialization=2; authentication=11; [Post-Login] complete=14037; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:79179cae-0e37-4350-931d-8a5a32a4b36f
+Error Number:-2,State:0,Class:11 {"EventId":{"Id":10100,"Name":"Microsoft.EntityFrameworkCore.Query.QueryIterationFailed"},"RequestName":"GetEmployeesQuery","ActionId":"693b9d81-fae8-4336-bedc-9dc049919bcb","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4","RequestId":"0HNPJ7GTLUB90:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7GTLUB90","Scope":["CorrelationId: aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=40; handshake=66; [Login] initialization=2; authentication=11; [Post-Login] complete=14037; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:79179cae-0e37-4350-931d-8a5a32a4b36f
+Error Number:-2,State:0,Class:11
+2026-10-26 15:36:58.879 +07:00 [ERR] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Employees responded 500 in 20895.3 ms {"UserId":"anonymous","CorrelationId":"aab9e5f5-3c24-47a0-b3a9-0894f5eb0fc4","RequestId":"0HNPJ7GTLUB90:00000003","ConnectionId":"0HNPJ7GTLUB90","Application":"HRIS.API","Environment":"Development"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=40; handshake=66; [Login] initialization=2; authentication=11; [Post-Login] complete=14037; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRIS.API.Features.Employees.Queries.GetEmployees.GetEmployeesQueryHandler.Handle(GetEmployeesQuery query, CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Features\Employees\Queries\GetEmployees\GetEmployeesQuery.cs:line 15
+   at HRIS.API.Cummon.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Cummon\Behaviors\LoggingBehavior.cs:line 21
+   at HRIS.API.Controllers.EmployeesController.GetAll(CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Controllers\EmployeesController.cs:line 21
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Program.cs:line 57
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at HRIS.API.Middlewares.MaintenanceModeMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\MaintenanceModeMiddleware.cs:line 14
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at HRIS.API.Middlewares.RequestTimingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\RequestTimingMiddleware.cs:line 25
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:79179cae-0e37-4350-931d-8a5a32a4b36f
+Error Number:-2,State:0,Class:11
+2026-10-26 15:36:59.386 +07:00 [ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request. {"EventId":{"Id":1,"Name":"UnhandledException"},"RequestId":"0HNPJ7GTLUB90:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7GTLUB90","Application":"HRIS.API","Environment":"Development"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=40; handshake=66; [Login] initialization=2; authentication=11; [Post-Login] complete=14037; 
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ThrowExceptionAndWarning(Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at Microsoft.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at Microsoft.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.<>c__DisplayClass28_0.<CreateReplaceConnectionContinuation>b__0(Task`1 _)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRIS.API.Features.Employees.Queries.GetEmployees.GetEmployeesQueryHandler.Handle(GetEmployeesQuery query, CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Features\Employees\Queries\GetEmployees\GetEmployeesQuery.cs:line 15
+   at HRIS.API.Cummon.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Cummon\Behaviors\LoggingBehavior.cs:line 21
+   at HRIS.API.Controllers.EmployeesController.GetAll(CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Controllers\EmployeesController.cs:line 21
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Program.cs:line 57
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at HRIS.API.Middlewares.MaintenanceModeMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\MaintenanceModeMiddleware.cs:line 14
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at HRIS.API.Middlewares.RequestTimingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\RequestTimingMiddleware.cs:line 25
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:79179cae-0e37-4350-931d-8a5a32a4b36f
+Error Number:-2,State:0,Class:11
+2026-10-26 15:37:50.692 +07:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down... {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:37:50.707 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}

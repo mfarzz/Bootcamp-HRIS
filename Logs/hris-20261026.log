@@ -30,3 +30,150 @@
 2026-10-26 10:46:22.005 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Employees responded 201 in 2385.5 ms {"UserId":"anonymous","CorrelationId":"b7ab2c36-e65e-4e5f-9db0-9e471053380b","RequestId":"0HNPJ2DMRE67M:00000005","ConnectionId":"0HNPJ2DMRE67M","Application":"HRIS.API","Environment":"Development"}
 2026-10-26 11:17:05.365 +07:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down... {"Application":"HRIS.API","Environment":"Development"}
 2026-10-26 11:17:05.508 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:17.184 +07:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5273 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:17.213 +07:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:17.214 +07:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:17.216 +07:00 [INF] Microsoft.Hosting.Lifetime Content root path: D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:17.982 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.html responded 304 in 266 ms for CorrelationId: a15d6c27-773c-4c9b-b8f3-87ceaa2c90d3 {"RequestId":"0HNPJ7B74MUT8:00000001","RequestPath":"/swagger/index.html","ConnectionId":"0HNPJ7B74MUT8","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.052 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.html responded 304 in 325.8 ms {"UserId":"anonymous","CorrelationId":"a15d6c27-773c-4c9b-b8f3-87ceaa2c90d3","RequestId":"0HNPJ7B74MUT8:00000001","ConnectionId":"0HNPJ7B74MUT8","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.221 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.js responded 304 in 3 ms for CorrelationId: de6ec962-4ffd-4fa4-9b27-b67bdb3e543f {"RequestId":"0HNPJ7B74MUTC:00000001","RequestPath":"/swagger/index.js","ConnectionId":"0HNPJ7B74MUTC","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.230 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.js responded 304 in 16.1 ms {"UserId":"anonymous","CorrelationId":"de6ec962-4ffd-4fa4-9b27-b67bdb3e543f","RequestId":"0HNPJ7B74MUTC:00000001","ConnectionId":"0HNPJ7B74MUTC","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.248 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.css responded 304 in 29 ms for CorrelationId: cfe23145-defd-4aec-88a4-e83e308c54bf {"RequestId":"0HNPJ7B74MUTA:00000001","RequestPath":"/swagger/index.css","ConnectionId":"0HNPJ7B74MUTA","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.248 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui.css responded 304 in 32 ms for CorrelationId: 9c1326b6-4693-4085-b6bf-907e6740854e {"RequestId":"0HNPJ7B74MUT8:00000002","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HNPJ7B74MUT8","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.248 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui-standalone-preset.js responded 304 in 33 ms for CorrelationId: f1b02682-3865-4d92-95fa-9bd06d21c201 {"RequestId":"0HNPJ7B74MUT9:00000001","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HNPJ7B74MUT9","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.290 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui-bundle.js responded 304 in 73 ms for CorrelationId: 1a452d43-17d2-4615-baf8-3826d40a73fe {"RequestId":"0HNPJ7B74MUTB:00000001","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HNPJ7B74MUTB","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.291 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.css responded 304 in 79.2 ms {"UserId":"anonymous","CorrelationId":"cfe23145-defd-4aec-88a4-e83e308c54bf","RequestId":"0HNPJ7B74MUTA:00000001","ConnectionId":"0HNPJ7B74MUTA","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.301 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui.css responded 304 in 89.3 ms {"UserId":"anonymous","CorrelationId":"9c1326b6-4693-4085-b6bf-907e6740854e","RequestId":"0HNPJ7B74MUT8:00000002","ConnectionId":"0HNPJ7B74MUT8","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.316 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 104.1 ms {"UserId":"anonymous","CorrelationId":"f1b02682-3865-4d92-95fa-9bd06d21c201","RequestId":"0HNPJ7B74MUT9:00000001","ConnectionId":"0HNPJ7B74MUT9","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.330 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 118.0 ms {"UserId":"anonymous","CorrelationId":"1a452d43-17d2-4615-baf8-3826d40a73fe","RequestId":"0HNPJ7B74MUTB:00000001","ConnectionId":"0HNPJ7B74MUTB","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:18.607 +07:00 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect. {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"CorrelationId":"08511cd5-1668-4422-809b-541db23f36fe","RequestId":"0HNPJ7B74MUTB:00000002","RequestPath":"/openapi/v1.json","ConnectionId":"0HNPJ7B74MUTB","Scope":["CorrelationId: 08511cd5-1668-4422-809b-541db23f36fe"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:19.450 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /openapi/v1.json responded 200 in 846 ms for CorrelationId: 08511cd5-1668-4422-809b-541db23f36fe {"RequestId":"0HNPJ7B74MUTB:00000002","RequestPath":"/openapi/v1.json","ConnectionId":"0HNPJ7B74MUTB","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:19.463 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /openapi/v1.json responded 200 in 859.8 ms {"UserId":"anonymous","CorrelationId":"08511cd5-1668-4422-809b-541db23f36fe","RequestId":"0HNPJ7B74MUTB:00000002","ConnectionId":"0HNPJ7B74MUTB","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:37.691 +07:00 [WRN] LuckyPennySoftware.MediatR.License You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. {"ActionId":"1e4f6fd6-1083-464b-847b-07b04a40c0ab","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aba687b0-fce8-44bd-b82b-522fc288ea01","RequestId":"0HNPJ7B74MUTB:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7B74MUTB","Scope":["CorrelationId: aba687b0-fce8-44bd-b82b-522fc288ea01"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:37.742 +07:00 [DBG] HRIS.API.Pipeline Handle GetEmployeesQuery {"ActionId":"1e4f6fd6-1083-464b-847b-07b04a40c0ab","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aba687b0-fce8-44bd-b82b-522fc288ea01","RequestId":"0HNPJ7B74MUTB:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7B74MUTB","Scope":["CorrelationId: aba687b0-fce8-44bd-b82b-522fc288ea01"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:41.805 +07:00 [ERR] Microsoft.EntityFrameworkCore.Database.Command Failed executing DbCommand (107ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[CreatedAt], [e].[DepartmentId], [e].[Email], [e].[EmployeeNumber], [e].[FullName], [e].[HireDate], [e].[ManagerId], [e].[PositionId], [e].[Status], [e].[TerminatedAt], [d].[Name], [p].[Title], [e0].[FullName]
+FROM [Employees] AS [e]
+INNER JOIN [Departments] AS [d] ON [e].[DepartmentId] = [d].[Id]
+INNER JOIN [Positions] AS [p] ON [e].[PositionId] = [p].[Id]
+LEFT JOIN [Employees] AS [e0] ON [e].[ManagerId] = [e0].[Id]
+ORDER BY [e].[FullName] {"EventId":{"Id":20102,"Name":"Microsoft.EntityFrameworkCore.Database.Command.CommandError"},"RequestName":"GetEmployeesQuery","ActionId":"1e4f6fd6-1083-464b-847b-07b04a40c0ab","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aba687b0-fce8-44bd-b82b-522fc288ea01","RequestId":"0HNPJ7B74MUTB:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7B74MUTB","Scope":["CorrelationId: aba687b0-fce8-44bd-b82b-522fc288ea01"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:26:41.835 +07:00 [ERR] Microsoft.EntityFrameworkCore.Query An exception occurred while iterating over the results of a query for context type 'HRIS.API.Data.HrisDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:23253cce-f244-4817-91a4-14b0f0926d5c
+Error Number:207,State:1,Class:16 {"EventId":{"Id":10100,"Name":"Microsoft.EntityFrameworkCore.Query.QueryIterationFailed"},"RequestName":"GetEmployeesQuery","ActionId":"1e4f6fd6-1083-464b-847b-07b04a40c0ab","ActionName":"HRIS.API.Controllers.EmployeesController.GetAll (HRIS.API)","CorrelationId":"aba687b0-fce8-44bd-b82b-522fc288ea01","RequestId":"0HNPJ7B74MUTB:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7B74MUTB","Scope":["CorrelationId: aba687b0-fce8-44bd-b82b-522fc288ea01"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:23253cce-f244-4817-91a4-14b0f0926d5c
+Error Number:207,State:1,Class:16
+2026-10-26 15:26:41.846 +07:00 [ERR] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /api/Employees responded 500 in 4639.2 ms {"UserId":"anonymous","CorrelationId":"aba687b0-fce8-44bd-b82b-522fc288ea01","RequestId":"0HNPJ7B74MUTB:00000003","ConnectionId":"0HNPJ7B74MUTB","Application":"HRIS.API","Environment":"Development"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRIS.API.Features.Employees.Queries.GetEmployees.GetEmployeesQueryHandler.Handle(GetEmployeesQuery query, CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Features\Employees\Queries\GetEmployees\GetEmployeesQuery.cs:line 15
+   at HRIS.API.Cummon.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Cummon\Behaviors\LoggingBehavior.cs:line 21
+   at HRIS.API.Controllers.EmployeesController.GetAll(CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Controllers\EmployeesController.cs:line 21
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Program.cs:line 57
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at HRIS.API.Middlewares.MaintenanceModeMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\MaintenanceModeMiddleware.cs:line 14
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at HRIS.API.Middlewares.RequestTimingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\RequestTimingMiddleware.cs:line 25
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:23253cce-f244-4817-91a4-14b0f0926d5c
+Error Number:207,State:1,Class:16
+2026-10-26 15:26:41.864 +07:00 [ERR] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware An unhandled exception has occurred while executing the request. {"EventId":{"Id":1,"Name":"UnhandledException"},"RequestId":"0HNPJ7B74MUTB:00000003","RequestPath":"/api/Employees","ConnectionId":"0HNPJ7B74MUTB","Application":"HRIS.API","Environment":"Development"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Status'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__195_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at HRIS.API.Features.Employees.Queries.GetEmployees.GetEmployeesQueryHandler.Handle(GetEmployeesQuery query, CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Features\Employees\Queries\GetEmployees\GetEmployeesQuery.cs:line 15
+   at HRIS.API.Cummon.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Cummon\Behaviors\LoggingBehavior.cs:line 21
+   at HRIS.API.Controllers.EmployeesController.GetAll(CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Controllers\EmployeesController.cs:line 21
+   at lambda_method6(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Program.cs:line 57
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at HRIS.API.Middlewares.MaintenanceModeMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\MaintenanceModeMiddleware.cs:line 14
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at HRIS.API.Middlewares.RequestTimingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\RequestTimingMiddleware.cs:line 25
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:23253cce-f244-4817-91a4-14b0f0926d5c
+Error Number:207,State:1,Class:16
+2026-10-26 15:30:19.112 +07:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down... {"Application":"HRIS.API","Environment":"Development"}
+2026-10-26 15:30:19.173 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}

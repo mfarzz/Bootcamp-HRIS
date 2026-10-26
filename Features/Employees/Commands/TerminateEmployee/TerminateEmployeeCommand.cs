@@ -1,4 +1,4 @@
-﻿using HRIS.API.Data.Repositories.Implementations;
+﻿using HRIS.API.Data.Repositories.Interfaces;
 using HRIS.API.Entities;
 using MediatR;
 
@@ -8,18 +8,18 @@ public enum TerminateResult {Terminated, NotFound, AlreadyTerminated}
 
 public record TerminateEmployeeCommand(Guid EmployeeId) : IRequest<TerminateResult>;
 
-public class TerminatedEmployeeCommandHandler(UnitOfWork uow, TimeProvider timeProvider, ILogger<TerminatedEmployeeCommandHandler> logger) : IRequestHandler<TerminateEmployeeCommand, TerminateResult>
+public class TerminatedEmployeeCommandHandler(IUnitOfWork uow, TimeProvider timeProvider, ILogger<TerminatedEmployeeCommandHandler> logger) : IRequestHandler<TerminateEmployeeCommand, TerminateResult>
 {
     public async Task<TerminateResult> Handle(TerminateEmployeeCommand command, CancellationToken ct)
     {
-        var employee = await uow.Employees.GetByIdAsync(command.EmployeeId);
+        var employee = await uow.Employees.GetByIdAsync(command.EmployeeId, ct);
         if (employee is null)
             return TerminateResult.NotFound;
 
-        if (employee.Status == EmployeeStatus.Terminated)
+        if (employee.EmployeeStatus == EmployeeStatus.Terminated)
             return TerminateResult.AlreadyTerminated;
 
-        employee.Status = EmployeeStatus.Terminated;
+        employee.EmployeeStatus = EmployeeStatus.Terminated;
         employee.TerminatedAt = DateOnly.FromDateTime(timeProvider.GetUtcNow().UtcDateTime);
 
         var directReports = await uow.Employees.GetDirectReportsAsync(employee.Id, ct);

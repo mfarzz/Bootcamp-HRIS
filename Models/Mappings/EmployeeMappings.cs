@@ -15,7 +15,7 @@ public static class EmployeeMappings
             employee.FullName,
             employee.Email,
             employee.HireDate,
-            employee.Status,
+            employee.EmployeeStatus,
             departmentName,
             positionTitle,
             managerFullName,

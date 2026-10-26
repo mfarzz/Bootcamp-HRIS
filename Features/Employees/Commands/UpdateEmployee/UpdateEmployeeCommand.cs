@@ -1,4 +1,4 @@
-﻿using HRIS.API.Data.Repositories.Implementations;
+﻿using HRIS.API.Data.Repositories.Interfaces;
 using HRIS.API.Models.Dtos;
 using HRIS.API.Models.Mappings;
 using MediatR;
@@ -7,7 +7,7 @@ namespace HRIS.API.Features.Employees.Commands.UpdateEmployee;
 
 public record UpdateEmployeeCommand(Guid Id, UpdateEmployeeRequest Request) : IRequest<bool>;
 
-public class UpdateEmployeeCommandHandler(UnitOfWork uow) : IRequestHandler<UpdateEmployeeCommand, bool>
+public class UpdateEmployeeCommandHandler(IUnitOfWork uow) : IRequestHandler<UpdateEmployeeCommand, bool>
 {
     public async Task<bool> Handle(UpdateEmployeeCommand command, CancellationToken ct)
     {

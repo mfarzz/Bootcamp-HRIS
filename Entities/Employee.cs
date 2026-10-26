@@ -18,7 +18,7 @@ public class Employee
         Email = email;
         HireDate = hireDate;
         CreatedAt = createdAt;
-        Status = status;
+        EmployeeStatus = status;
         TerminatedAt = terminatedAt;
         DepartmentId = departmentId;
         PositionId = positionId;
@@ -32,7 +32,7 @@ public class Employee
     public string FullName { get; set; } = null!;
     public string Email { get; set; } = null!;              // unique
     public DateOnly HireDate { get; set; }                  // DateOnly maps to SQL Server 'date'
-    public EmployeeStatus Status { get; set; }                // no default here: the service sets it (Lesson 4)
+    public EmployeeStatus EmployeeStatus { get; set; }                // no default here: the service sets it (Lesson 4)
     public DateTimeOffset CreatedAt { get; set; }           // set by the server from TimeProvider, never by the client
     public DateOnly? TerminatedAt { get; set; }
 

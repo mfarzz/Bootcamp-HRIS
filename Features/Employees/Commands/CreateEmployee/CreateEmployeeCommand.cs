@@ -1,4 +1,4 @@
-﻿using HRIS.API.Data.Repositories.Implementations;
+﻿using HRIS.API.Data.Repositories.Interfaces;
 using HRIS.API.Entities;
 using HRIS.API.Models.Dtos;
 using HRIS.API.Models.Mappings;
@@ -9,7 +9,7 @@ namespace HRIS.API.Features.Employees.Commands.CreateEmployee;
 public record CreateEmployeeCommand(CreateEmployeeRequest Request) : IRequest<Guid>;
 
 public class CreateEmployeeCommandHandler(
-    UnitOfWork uow,
+    IUnitOfWork uow,
     TimeProvider timeProvider,
     ILogger<CreateEmployeeCommandHandler> logger) : IRequestHandler<CreateEmployeeCommand, Guid>
 {
