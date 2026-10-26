@@ -1,4 +1,4 @@
-﻿using HRIS.API.Cummon.Behaviors;
+﻿using HRIS.API.Common.Behaviors;
 using HRIS.API.Data;
 using HRIS.API.Data.Repositories;
 using HRIS.API.Data.Repositories.Implementations;

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using MediatR;
 
-namespace HRIS.API.Cummon.Behaviors;
+namespace HRIS.API.Common.Behaviors;
 
 public class LoggingBehavior<TRequest, TResponse>(ILoggerFactory loggerFactory) : IPipelineBehavior<TRequest, TResponse> where TRequest : notnull
 {
