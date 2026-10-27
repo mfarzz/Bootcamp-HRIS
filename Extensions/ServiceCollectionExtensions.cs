@@ -1,4 +1,5 @@
-﻿using HRIS.API.Common.Behaviors;
+﻿using FluentValidation;
+using HRIS.API.Common.Behaviors;
 using HRIS.API.Common.ExceptionHandlers;
 using HRIS.API.Data;
 using HRIS.API.Data.Repositories;
@@ -50,6 +51,8 @@ public static class ServiceCollectionExtensions
             }
         });
         services.AddExceptionHandler<GlobalExceptionHandler>();
+        
+        services.AddValidatorsFromAssembly(typeof(Program).Assembly);
         return services;
     }
 }

@@ -1,0 +1,16 @@
+﻿using FluentValidation;
+
+namespace HRIS.API.Features.Employees.Commands.CreatePosition;
+
+public class CreatePositionCommandValidator : AbstractValidator<CreatePositionCommand>
+{
+    public CreatePositionCommandValidator()
+    {
+        RuleFor(x => x.Request.Title)
+            .NotEmpty()
+            .MaximumLength(100);
+
+        RuleFor(x => x.Request.Level)
+            .InclusiveBetween(1, 10);
+    }
+}
