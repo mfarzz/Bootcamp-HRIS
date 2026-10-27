@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace HRIS.API.Common.Pagging;
+namespace HRIS.API.Common.Paging;
 
 public record PagedResult<T>(IReadOnlyCollection<T> Items, int Page, int PageSize, int TotalCount)
 {

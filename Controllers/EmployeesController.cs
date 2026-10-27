@@ -1,4 +1,4 @@
-﻿using HRIS.API.Common.Pagging;
+﻿using HRIS.API.Common.Paging;
 using HRIS.API.Entities;
 using HRIS.API.Features.Employees.Commands.AssignManager;
 using HRIS.API.Features.Employees.Commands.CreateEmployee;

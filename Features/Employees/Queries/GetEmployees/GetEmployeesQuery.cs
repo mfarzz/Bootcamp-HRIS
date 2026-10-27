@@ -1,4 +1,4 @@
-﻿using HRIS.API.Common.Pagging;
+﻿using HRIS.API.Common.Paging;
 using HRIS.API.Data;
 using HRIS.API.Entities;
 using HRIS.API.Models.Dtos;
