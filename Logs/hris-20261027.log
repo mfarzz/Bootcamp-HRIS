@@ -423,3 +423,150 @@ ORDER BY [e0].[FullName], [e0].[EmployeeNumber] {"EventId":{"Id":20101,"Name":"M
 2026-10-27 09:15:57.457 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /api/Employees responded 200 in 504 ms for CorrelationId: f325f070-454a-4d67-a7dd-94105923770d {"RequestId":"0HNPJPVDQDIN4:00000002","RequestPath":"/api/Employees","ConnectionId":"0HNPJPVDQDIN4","Application":"HRIS.API","Environment":"Development"}
 2026-10-27 09:16:07.431 +07:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down... {"Application":"HRIS.API","Environment":"Development"}
 2026-10-27 09:16:07.439 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:36.605 +07:00 [INF] Microsoft.Hosting.Lifetime Now listening on: http://localhost:5273 {"EventId":{"Id":14,"Name":"ListeningOnAddress"},"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:36.643 +07:00 [INF] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down. {"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:36.646 +07:00 [INF] Microsoft.Hosting.Lifetime Hosting environment: Development {"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:36.648 +07:00 [INF] Microsoft.Hosting.Lifetime Content root path: D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API {"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.589 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.html responded 304 in 395.6 ms {"UserId":"anonymous","CorrelationId":"6cf36fc0-b14a-4913-8116-1424324ad1b8","RequestId":"0HNPJQ43EI8RM:00000001","ConnectionId":"0HNPJQ43EI8RM","Scope":["CorrelationId: 6cf36fc0-b14a-4913-8116-1424324ad1b8"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.644 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.html responded 304 in 474 ms for CorrelationId: 6cf36fc0-b14a-4913-8116-1424324ad1b8 {"RequestId":"0HNPJQ43EI8RM:00000001","RequestPath":"/swagger/index.html","ConnectionId":"0HNPJQ43EI8RM","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.751 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.js responded 304 in 8.3 ms {"UserId":"anonymous","CorrelationId":"b5fa5559-cbab-4430-9f38-13d1a6787979","RequestId":"0HNPJQ43EI8RQ:00000001","ConnectionId":"0HNPJQ43EI8RQ","Scope":["CorrelationId: b5fa5559-cbab-4430-9f38-13d1a6787979"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.780 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui.css responded 304 in 37.2 ms {"UserId":"anonymous","CorrelationId":"cb5c3388-9633-4f44-a70c-b5e0a2dfa48a","RequestId":"0HNPJQ43EI8RM:00000002","ConnectionId":"0HNPJQ43EI8RM","Scope":["CorrelationId: cb5c3388-9633-4f44-a70c-b5e0a2dfa48a"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.780 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 37.3 ms {"UserId":"anonymous","CorrelationId":"7339a5db-ca5f-46ce-88ad-abfcb128eb1f","RequestId":"0HNPJQ43EI8RO:00000001","ConnectionId":"0HNPJQ43EI8RO","Scope":["CorrelationId: 7339a5db-ca5f-46ce-88ad-abfcb128eb1f"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.780 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/index.css responded 304 in 37.2 ms {"UserId":"anonymous","CorrelationId":"cb9c1fba-106e-42ac-bcea-4644c16d4f68","RequestId":"0HNPJQ43EI8RN:00000001","ConnectionId":"0HNPJQ43EI8RN","Scope":["CorrelationId: cb9c1fba-106e-42ac-bcea-4644c16d4f68"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.784 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.js responded 304 in 41 ms for CorrelationId: b5fa5559-cbab-4430-9f38-13d1a6787979 {"RequestId":"0HNPJQ43EI8RQ:00000001","RequestPath":"/swagger/index.js","ConnectionId":"0HNPJQ43EI8RQ","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.836 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 93.4 ms {"UserId":"anonymous","CorrelationId":"83c83312-ba62-4215-95e2-cd05eeea239f","RequestId":"0HNPJQ43EI8RP:00000001","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 83c83312-ba62-4215-95e2-cd05eeea239f"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.841 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui.css responded 304 in 98 ms for CorrelationId: cb5c3388-9633-4f44-a70c-b5e0a2dfa48a {"RequestId":"0HNPJQ43EI8RM:00000002","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HNPJQ43EI8RM","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.866 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui-standalone-preset.js responded 304 in 123 ms for CorrelationId: 7339a5db-ca5f-46ce-88ad-abfcb128eb1f {"RequestId":"0HNPJQ43EI8RO:00000001","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HNPJQ43EI8RO","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.881 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/index.css responded 304 in 138 ms for CorrelationId: cb9c1fba-106e-42ac-bcea-4644c16d4f68 {"RequestId":"0HNPJQ43EI8RN:00000001","RequestPath":"/swagger/index.css","ConnectionId":"0HNPJQ43EI8RN","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:37.913 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /swagger/swagger-ui-bundle.js responded 304 in 170 ms for CorrelationId: 83c83312-ba62-4215-95e2-cd05eeea239f {"RequestId":"0HNPJQ43EI8RP:00000001","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HNPJQ43EI8RP","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:38.112 +07:00 [WRN] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware Failed to determine the https port for redirect. {"EventId":{"Id":3,"Name":"FailedToDeterminePort"},"CorrelationId":"50c87e7d-e024-449a-a345-6156355aeb74","RequestId":"0HNPJQ43EI8RP:00000002","RequestPath":"/openapi/v1.json","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 50c87e7d-e024-449a-a345-6156355aeb74"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:39.134 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP GET /openapi/v1.json responded 200 in 1030.6 ms {"UserId":"anonymous","CorrelationId":"50c87e7d-e024-449a-a345-6156355aeb74","RequestId":"0HNPJQ43EI8RP:00000002","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 50c87e7d-e024-449a-a345-6156355aeb74"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:21:39.148 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware GET /openapi/v1.json responded 200 in 1044 ms for CorrelationId: 50c87e7d-e024-449a-a345-6156355aeb74 {"RequestId":"0HNPJQ43EI8RP:00000002","RequestPath":"/openapi/v1.json","ConnectionId":"0HNPJQ43EI8RP","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:22:43.637 +07:00 [INF] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/annotation-lab responded 200 in 393.8 ms {"UserId":"anonymous","CorrelationId":"87c34d71-e932-4aac-bdb1-8db397867381","RequestId":"0HNPJQ43EI8RP:00000003","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 87c34d71-e932-4aac-bdb1-8db397867381"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:22:43.672 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware POST /api/annotation-lab responded 200 in 429 ms for CorrelationId: 87c34d71-e932-4aac-bdb1-8db397867381 {"RequestId":"0HNPJQ43EI8RP:00000003","RequestPath":"/api/annotation-lab","ConnectionId":"0HNPJQ43EI8RP","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:22:51.845 +07:00 [WRN] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/annotation-lab responded 400 in 110.4 ms {"UserId":"anonymous","CorrelationId":"547f4912-0eb0-4eb7-945d-5f2517948118","RequestId":"0HNPJQ43EI8RP:00000004","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 547f4912-0eb0-4eb7-945d-5f2517948118"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:22:51.874 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware POST /api/annotation-lab responded 400 in 139 ms for CorrelationId: 547f4912-0eb0-4eb7-945d-5f2517948118 {"RequestId":"0HNPJQ43EI8RP:00000004","RequestPath":"/api/annotation-lab","ConnectionId":"0HNPJQ43EI8RP","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:24:42.761 +07:00 [WRN] LuckyPennySoftware.MediatR.License You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license. {"ActionId":"126b2069-dd52-4645-9201-e39d3a68fc60","ActionName":"HRIS.API.Controllers.EmployeesController.Create (HRIS.API)","CorrelationId":"14c7431a-dc6f-4051-9f44-afea030f3ef4","RequestId":"0HNPJQ43EI8RP:00000005","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 14c7431a-dc6f-4051-9f44-afea030f3ef4"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:24:42.829 +07:00 [WRN] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Employees responded 400 in 223.7 ms {"UserId":"anonymous","CorrelationId":"14c7431a-dc6f-4051-9f44-afea030f3ef4","RequestId":"0HNPJQ43EI8RP:00000005","ConnectionId":"0HNPJQ43EI8RP","Scope":["CorrelationId: 14c7431a-dc6f-4051-9f44-afea030f3ef4"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:24:42.885 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware POST /api/Employees responded 400 in 280 ms for CorrelationId: 14c7431a-dc6f-4051-9f44-afea030f3ef4 {"RequestId":"0HNPJQ43EI8RP:00000005","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RP","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:27:19.595 +07:00 [WRN] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Employees responded 400 in 5.6 ms {"UserId":"anonymous","CorrelationId":"fede1c5c-f0ea-48ad-8b32-1a13d685d4a6","RequestId":"0HNPJQ43EI8RR:00000001","ConnectionId":"0HNPJQ43EI8RR","Scope":["CorrelationId: fede1c5c-f0ea-48ad-8b32-1a13d685d4a6"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:27:19.614 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware POST /api/Employees responded 400 in 24 ms for CorrelationId: fede1c5c-f0ea-48ad-8b32-1a13d685d4a6 {"RequestId":"0HNPJQ43EI8RR:00000001","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RR","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:27:28.690 +07:00 [DBG] HRIS.API.Pipeline Handle CreateEmployeeCommand {"ActionId":"126b2069-dd52-4645-9201-e39d3a68fc60","ActionName":"HRIS.API.Controllers.EmployeesController.Create (HRIS.API)","CorrelationId":"c3ce09a2-6f4c-4996-98af-97cf49370e30","RequestId":"0HNPJQ43EI8RR:00000002","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RR","Scope":["CorrelationId: c3ce09a2-6f4c-4996-98af-97cf49370e30"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:27:34.601 +07:00 [INF] Microsoft.EntityFrameworkCore.Database.Command Executed DbCommand (149ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTimeOffset), @p2='?' (DbType = Guid), @p3='?' (Size = 100), @p4='?' (Size = 20), @p5='?' (Size = 100), @p6='?' (DbType = Date), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Date)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Id], [CreatedAt], [DepartmentId], [Email], [EmployeeNumber], [FullName], [HireDate], [ManagerId], [PositionId], [TerminatedAt])
+OUTPUT INSERTED.[EmployeeStatus]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9); {"EventId":{"Id":20101,"Name":"Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted"},"RequestName":"CreateEmployeeCommand","ActionId":"126b2069-dd52-4645-9201-e39d3a68fc60","ActionName":"HRIS.API.Controllers.EmployeesController.Create (HRIS.API)","CorrelationId":"c3ce09a2-6f4c-4996-98af-97cf49370e30","RequestId":"0HNPJQ43EI8RR:00000002","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RR","Scope":["CorrelationId: c3ce09a2-6f4c-4996-98af-97cf49370e30"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:27:34.651 +07:00 [ERR] Microsoft.EntityFrameworkCore.Update An exception occurred in the database while saving changes for context type 'HRIS.API.Data.HrisDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Employees' with unique index 'IX_Employees_Email'. The duplicate key value is (string).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a784934f-9d0f-46ca-9388-15d18a62985f
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) {"EventId":{"Id":10000,"Name":"Microsoft.EntityFrameworkCore.Update.SaveChangesFailed"},"RequestName":"CreateEmployeeCommand","ActionId":"126b2069-dd52-4645-9201-e39d3a68fc60","ActionName":"HRIS.API.Controllers.EmployeesController.Create (HRIS.API)","CorrelationId":"c3ce09a2-6f4c-4996-98af-97cf49370e30","RequestId":"0HNPJQ43EI8RR:00000002","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RR","Scope":["CorrelationId: c3ce09a2-6f4c-4996-98af-97cf49370e30"],"UserId":"anonymous","Application":"HRIS.API","Environment":"Development"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Employees' with unique index 'IX_Employees_Email'. The duplicate key value is (string).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a784934f-9d0f-46ca-9388-15d18a62985f
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-10-27 09:27:34.671 +07:00 [ERR] HRIS.API.Common.ExceptionHandlers.GlobalExceptionHandler Unhandled Microsoft.EntityFrameworkCore.DbUpdateException whiele processing POST /api/Employees {"CorrelationId":"c3ce09a2-6f4c-4996-98af-97cf49370e30","RequestId":"0HNPJQ43EI8RR:00000002","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RR","Scope":["CorrelationId: c3ce09a2-6f4c-4996-98af-97cf49370e30"],"Application":"HRIS.API","Environment":"Development"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Employees' with unique index 'IX_Employees_Email'. The duplicate key value is (string).
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:a784934f-9d0f-46ca-9388-15d18a62985f
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at HRIS.API.Features.Employees.Commands.CreateEmployee.CreateEmployeeCommandHandler.Handle(CreateEmployeeCommand command, CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Features\Employees\Commands\CreateEmployee\CreateEmployeeCommand.cs:line 20
+   at HRIS.API.Common.Behaviors.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Common\Behaviors\LoggingBehavior.cs:line 21
+   at HRIS.API.Controllers.EmployeesController.Create(CreateEmployeeRequest request, CancellationToken ct) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Controllers\EmployeesController.cs:line 40
+   at lambda_method9(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Program.cs:line 59
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at HRIS.API.Middlewares.MaintenanceModeMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Maganghub\Bootcamp\C#\HRIS\HRIS.API\Middlewares\MaintenanceModeMiddleware.cs:line 14
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2026-10-27 09:27:34.696 +07:00 [ERR] Serilog.AspNetCore.RequestLoggingMiddleware HTTP POST /api/Employees responded 500 in 6070.0 ms {"UserId":"anonymous","CorrelationId":"c3ce09a2-6f4c-4996-98af-97cf49370e30","RequestId":"0HNPJQ43EI8RR:00000002","ConnectionId":"0HNPJQ43EI8RR","Scope":["CorrelationId: c3ce09a2-6f4c-4996-98af-97cf49370e30"],"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:27:34.699 +07:00 [DBG] HRIS.API.Middlewares.RequestTimingMiddleware POST /api/Employees responded 500 in 6073 ms for CorrelationId: c3ce09a2-6f4c-4996-98af-97cf49370e30 {"RequestId":"0HNPJQ43EI8RR:00000002","RequestPath":"/api/Employees","ConnectionId":"0HNPJQ43EI8RR","Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:29:05.826 +07:00 [INF] Microsoft.Hosting.Lifetime Application is shutting down... {"Application":"HRIS.API","Environment":"Development"}
+2026-10-27 09:29:05.838 +07:00 [INF]  Stopping HRIS API {"Application":"HRIS.API","Environment":"Development"}

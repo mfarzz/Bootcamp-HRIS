@@ -15,7 +15,10 @@ try
 
     // Add services to the container.
     builder.AddHrisSerilog();
-    builder.Services.AddControllers()
+    builder.Services.AddControllers(options =>
+        {
+            options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+        })
         .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
     builder.Services.AddHrisService(builder.Configuration);
     builder.Services.AddHrisMiddleware();
