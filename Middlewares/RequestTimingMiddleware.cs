@@ -19,6 +19,12 @@ public class RequestTimingMiddleware(ILogger<RequestTimingMiddleware> logger) : 
         }
         
         context.Response.Headers["X-Correlation-Id"] = correlationId;
+        context.Items[_correlationHeader] = correlationId;
+        context.Response.OnStarting(() =>
+        {
+            context.Response.Headers[_correlationHeader] = correlationId;
+            return Task.CompletedTask;
+        });
         
         using(logger.BeginScope("CorrelationId: {CorrelationId}", correlationId))
         {
