@@ -1,4 +1,5 @@
 ﻿using HRIS.API.Common.Behaviors;
+using HRIS.API.Common.ExceptionHandlers;
 using HRIS.API.Data;
 using HRIS.API.Data.Repositories;
 using HRIS.API.Data.Repositories.Implementations;
@@ -37,6 +38,18 @@ public static class ServiceCollectionExtensions
             cfg.RegisterServicesFromAssemblyContaining<Program>();
             cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));
         });
+
+        services.AddProblemDetails(options => options.CustomizeProblemDetails = context =>
+        {
+            var problem = context.ProblemDetails;
+            problem.Instance ??= context.HttpContext.Request.Path.Value;
+
+            if (context.HttpContext.Items.TryGetValue("X-Correlation-Id", out var correlationId))
+            {
+                problem.Extensions["correlationId"] = correlationId?.ToString();                
+            }
+        });
+        services.AddExceptionHandler<GlobalExceptionHandler>();
         return services;
     }
 }

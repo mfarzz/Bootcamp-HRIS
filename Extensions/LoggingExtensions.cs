@@ -6,7 +6,6 @@ namespace HRIS.API.Extensions;
 
 public static class LoggingExtensions
 {
-    /// <summary>Replaces the default logging providers with Serilog, configured from the "Serilog" section of appsettings.</summary>
     public static WebApplicationBuilder AddHrisSerilog(this WebApplicationBuilder builder)
     {
         if (builder.Environment.IsDevelopment())
@@ -22,11 +21,7 @@ public static class LoggingExtensions
 
         return builder;
     }
-
-    /// <summary>
-    /// One structured line per request, written when the response is finished, so it knows the final status code.
-    /// Register it near the top of the pipeline, and in Module 7 BEFORE UseExceptionHandler.
-    /// </summary>
+    
     public static IApplicationBuilder UseHrisRequestLogging(this IApplicationBuilder app)
         => app.UseSerilogRequestLogging(options =>
         {

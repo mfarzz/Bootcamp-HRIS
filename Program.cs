@@ -35,8 +35,10 @@ try
 
     var app = builder.Build(); // Sebuah pipeline, merupakan sebuah middleware
 
+    app.UseRequestTiming();
     app.UseHrisRequestLogging();
-    app.UseCustomMiddleware();
+    app.UseExceptionHandler();
+    app.UseMaintenanceMode();
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
