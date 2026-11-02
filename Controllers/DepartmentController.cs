@@ -1,5 +1,6 @@
 ﻿using HRIS.API.Data;
 using HRIS.API.Entities;
+using HRIS.API.Features.Departments.Commands.CreateDepartment;
 using HRIS.API.Features.Departments.Queries.GetDepartmentTree;
 using HRIS.API.Features.Employees.Commands.CreateDepartment;
 using HRIS.API.Features.Employees.Queries.GetDepartments;

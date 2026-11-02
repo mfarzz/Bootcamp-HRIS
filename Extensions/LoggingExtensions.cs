@@ -29,14 +29,11 @@ public static class LoggingExtensions
             options.GetLevel = GetLevel;
             options.EnrichDiagnosticContext = (diagnosticContext, httpContext) =>
             {
-                // Runs at the END of the request.
                 diagnosticContext.Set("UserId", httpContext.User.FindFirstValue(ClaimTypes.NameIdentifier) ?? "anonymous");
                 diagnosticContext.Set("CorrelationId", httpContext.Response.Headers["X-Correlation-Id"].ToString());
-                // Not logged on purpose: bodies, query string, Authorization header, client IP (personal data and secrets).
             };
         });
 
-    /// <summary>5xx = Error (our bug), 4xx = Warning (client problem), everything else = Information.</summary>
     private static LogEventLevel GetLevel(HttpContext httpContext, double elapsedMs, Exception? exception)
         => exception is not null || httpContext.Response.StatusCode >= StatusCodes.Status500InternalServerError
             ? LogEventLevel.Error

@@ -1,17 +1,17 @@
-﻿using HRIS.API.Data.Repositories.Interfaces;
+﻿using HRIS.API.Common.Exceptions;
+using HRIS.API.Data.Repositories.Interfaces;
 using MediatR;
 
 namespace HRIS.API.Features.Employees.Commands.AssignManager;
 
-public record AssignManagerCommand(Guid EmployeeId, Guid? ManagerId) : IRequest<bool>;
+public record AssignManagerCommand(Guid EmployeeId, Guid? ManagerId) : IRequest;
 
-public class AssignManagerCommandHandler(IUnitOfWork uow, ILogger<AssignManagerCommandHandler> logger) : IRequestHandler<AssignManagerCommand, bool>
+public class AssignManagerCommandHandler(IUnitOfWork uow, ILogger<AssignManagerCommandHandler> logger) : IRequestHandler<AssignManagerCommand>
 {
-    public async Task<bool> Handle(AssignManagerCommand command, CancellationToken ct)
+    public async Task Handle(AssignManagerCommand command, CancellationToken ct)
     {
-        var employee = await uow.Employees.GetByIdAsync(command.EmployeeId, ct);
-        if (employee is null)
-            return false;
+        var employee = await uow.Employees.GetByIdAsync(command.EmployeeId, ct) ??
+                       throw new NotFoundException("Employee", command.EmployeeId);
 
         var oldManagerId = employee.ManagerId;
         employee.ManagerId = command.ManagerId;
@@ -20,6 +20,5 @@ public class AssignManagerCommandHandler(IUnitOfWork uow, ILogger<AssignManagerC
         logger.LogInformation("Manager of employee {EmployeeId} changed from {OldManagerId} to {ManagerId}",
             employee.Id, oldManagerId, employee.ManagerId
             );
-        return true;
     }
 }

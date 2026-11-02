@@ -2,7 +2,7 @@
 
 namespace HRIS.API.Common.ExceptionHandlers;
 
-public static class ProblemDetailWriter
+public static class ProblemDetailsWriter
 {
     public const string ErrorCodeKey = "errorCode";
 

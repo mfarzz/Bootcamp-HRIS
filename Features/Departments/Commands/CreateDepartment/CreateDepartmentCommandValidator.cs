@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using HRIS.API.Data;
+using HRIS.API.Features.Departments.Commands.CreateDepartment;
 using Microsoft.EntityFrameworkCore;
 
 namespace HRIS.API.Features.Employees.Commands.CreateDepartment;

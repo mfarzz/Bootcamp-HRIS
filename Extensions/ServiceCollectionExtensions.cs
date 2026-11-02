@@ -7,6 +7,7 @@ using HRIS.API.Data.Repositories.Implementations;
 using HRIS.API.Data.Repositories.Interfaces;
 using HRIS.API.Middlewares;
 using HRIS.API.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace HRIS.API.Extensions;
@@ -38,6 +39,7 @@ public static class ServiceCollectionExtensions
         {
             cfg.RegisterServicesFromAssemblyContaining<Program>();
             cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));
+            cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));
         });
 
         services.AddProblemDetails(options => options.CustomizeProblemDetails = context =>
@@ -49,7 +51,15 @@ public static class ServiceCollectionExtensions
             {
                 problem.Extensions["correlationId"] = correlationId?.ToString();                
             }
+            
+            if (problem is ValidationProblemDetails && !problem.Extensions.ContainsKey(ProblemDetailsWriter.ErrorCodeKey))
+            {
+                problem.Extensions[ProblemDetailsWriter.ErrorCodeKey] = "MALFORMED_REQUEST";
+            }
         });
+        
+        services.AddExceptionHandler<ValidationExceptionHandler>();
+        services.AddExceptionHandler<DomainExceptionHandler>();
         services.AddExceptionHandler<GlobalExceptionHandler>();
         
         services.AddValidatorsFromAssembly(typeof(Program).Assembly);

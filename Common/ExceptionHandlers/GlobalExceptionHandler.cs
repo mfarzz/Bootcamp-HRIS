@@ -19,14 +19,9 @@ public class GlobalExceptionHandler(
             Title = "An unexpected error occured",
             Detail = "Please contact support and quote the tracerId"
         };
-        if (problem is ValidationProblemDetails && !problem.Extensions.ContainsKey(ProblemDetailWriter.ErrorCodeKey))
-        {
-            problem.Extensions[ProblemDetailWriter.ErrorCodeKey] = "MALFORMED_REQUEST";
-        }
-        problem.Extensions[ProblemDetailWriter.ErrorCodeKey] = "INTERNAL_ERROR";
+        problem.Extensions[ProblemDetailsWriter.ErrorCodeKey] = "INTERNAL_ERROR";
 
-
-        await ProblemDetailWriter.WriteAsync(problemDetailsService, httpContext, problem, exception, ct);
+        await ProblemDetailsWriter.WriteAsync(problemDetailsService, httpContext, problem, exception, ct);
         return true;
     }
 }

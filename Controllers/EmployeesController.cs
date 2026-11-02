@@ -28,10 +28,10 @@ public class EmployeesController(ISender sender) : ControllerBase
         [FromQuery] int pageSize = 10, 
         CancellationToken ct = default)
         => Ok(await sender.Send(new GetEmployeesQuery(search, departmentId, employeeStatus, sortBy, desc, page, pageSize), ct));
-    
+
     [HttpGet("{id:guid}")]
-    public async Task<ActionResult<EmployeeResponse>> GetById([FromRoute]Guid id, CancellationToken ct)
-        => await sender.Send(new GetEmployeeByIdQuery(id), ct) is { } employee ? Ok(employee) : NotFound();
+    public async Task<ActionResult<EmployeeResponse>> GetById([FromRoute] Guid id, CancellationToken ct)
+        => await sender.Send(new GetEmployeeByIdQuery(id), ct);
     
     [HttpPost]
     [ProducesResponseType(StatusCodes.Status201Created)]
@@ -43,31 +43,32 @@ public class EmployeesController(ISender sender) : ControllerBase
     }
 
     [HttpPut("{id:guid}")]
-    public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateEmployeeRequest request, CancellationToken ct)
-        => await sender.Send(new UpdateEmployeeCommand(id, request), ct) 
-            ? NoContent() 
-            : NotFound();
+    public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateEmployeeRequest request,
+        CancellationToken ct)
+    {
+        await sender.Send(new UpdateEmployeeCommand(id, request), ct);
+        return NoContent();
+    }
 
     [HttpPut("{id:guid}/manager")]
     public async Task<IActionResult> AssignManager([FromRoute] Guid id, [FromBody] AssignManagerRequest request,
         CancellationToken ct)
-        => await sender.Send(new AssignManagerCommand(id, request.ManagerId), ct)
-            ? NoContent()
-            : NotFound();
-    
+    {
+        await sender.Send(new AssignManagerCommand(id, request.ManagerId), ct);
+        return NoContent();
+    }
+
     [HttpPost("{id:guid}/terminate")]
     public async Task<IActionResult> Terminate([FromRoute] Guid id, CancellationToken ct)
-        => await sender.Send(new TerminateEmployeeCommand(id), ct)
-            switch
-            {
-                TerminateResult.Terminated => NoContent(),
-                TerminateResult.AlreadyTerminated => Conflict(),
-                _ => NotFound()
-            };
+    {
+        await sender.Send(new TerminateEmployeeCommand(id), ct);
+        return NoContent();
+    } 
     
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete([FromRoute] Guid id, CancellationToken ct)
-        => await sender.Send(new DeleteEmployeeCommand(id), ct)
-            ? NoContent()
-            : NotFound();
+    {
+        await sender.Send(new DeleteEmployeeCommand(id), ct);
+        return NoContent();
+    } 
 }

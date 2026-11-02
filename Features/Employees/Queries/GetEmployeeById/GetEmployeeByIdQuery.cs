@@ -1,4 +1,5 @@
-﻿using HRIS.API.Data;
+﻿using HRIS.API.Common.Exceptions;
+using HRIS.API.Data;
 using HRIS.API.Models.Dtos;
 using HRIS.API.Models.Mappings;
 using MediatR;
@@ -18,5 +19,6 @@ public class GetEmployeeByIdQueryHandler(HrisDbContext db) : IRequestHandler<Get
                 e.Department.Name,
                 e.Position.Title,
                 e.Manager != null ? e.Manager.FullName : null))
-            .FirstOrDefaultAsync(ct);
+            .FirstOrDefaultAsync(ct)
+            ?? throw new NotFoundException("Employee",  query.Id);
 }

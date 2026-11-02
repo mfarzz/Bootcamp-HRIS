@@ -1,23 +1,23 @@
-﻿using HRIS.API.Data.Repositories.Interfaces;
+﻿using HRIS.API.Common.Exceptions;
+using HRIS.API.Data.Repositories.Interfaces;
 using HRIS.API.Entities;
 using MediatR;
 
 namespace HRIS.API.Features.Employees.Commands.TerminateEmployee;
 
-public enum TerminateResult {Terminated, NotFound, AlreadyTerminated}
+public record TerminateEmployeeCommand(Guid EmployeeId) : IRequest;
 
-public record TerminateEmployeeCommand(Guid EmployeeId) : IRequest<TerminateResult>;
-
-public class TerminatedEmployeeCommandHandler(IUnitOfWork uow, TimeProvider timeProvider, ILogger<TerminatedEmployeeCommandHandler> logger) : IRequestHandler<TerminateEmployeeCommand, TerminateResult>
+public class TerminatedEmployeeCommandHandler(IUnitOfWork uow, TimeProvider timeProvider, ILogger<TerminatedEmployeeCommandHandler> logger) : IRequestHandler<TerminateEmployeeCommand>
 {
-    public async Task<TerminateResult> Handle(TerminateEmployeeCommand command, CancellationToken ct)
+    public async Task Handle(TerminateEmployeeCommand command, CancellationToken ct)
     {
-        var employee = await uow.Employees.GetByIdAsync(command.EmployeeId, ct);
-        if (employee is null)
-            return TerminateResult.NotFound;
+        var employee = await uow.Employees.GetByIdAsync(command.EmployeeId, ct) ??
+                       throw new NotFoundException("Employee", command.EmployeeId);
 
         if (employee.EmployeeStatus == EmployeeStatus.Terminated)
-            return TerminateResult.AlreadyTerminated;
+        {
+            throw new EmployeeAlreadyTerminatedException(employee.Id);
+        }
 
         employee.EmployeeStatus = EmployeeStatus.Terminated;
         employee.TerminatedAt = DateOnly.FromDateTime(timeProvider.GetUtcNow().UtcDateTime);
@@ -33,6 +33,5 @@ public class TerminatedEmployeeCommandHandler(IUnitOfWork uow, TimeProvider time
         logger.LogInformation("Employee {EmployeeId} terminated; {ReassignedCount} direct report move to manager {ManagerId}",
             employee.Id, directReports.Count, employee.ManagerId
             );
-        return TerminateResult.Terminated;
     }
 }
